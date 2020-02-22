@@ -1,0 +1,256 @@
+
+
+@media all and (max-width:800px)
+{
+    .row {
+      display: block !important;
+    }
+    div#workRight.right{
+      margin: 0 !important;
+
+    }
+    div.workImages img {
+      padding-top: 20px;
+      width: 250px; 
+  }
+  .navbar_pad {
+    padding: 10px;
+  }
+  section.image-row {
+    margin: auto;
+    width: 50%;
+  }
+
+  img.inspo-image {
+    width: 100%;
+  }
+}
+
+
+ul.workList {
+  padding-left: 0;
+}
+
+ul.workList a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: UniversStd;
+}
+
+ul.workList a:hover {
+  text-decoration: underline;
+}
+
+.workList {
+  list-style-type: none;
+}
+
+/* MAX HEIGHT DEPENDS ON WRAPPER LENGTH? WAS PREVIOUSLY 600*/
+div.workImages img {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.iteration-text {
+  min-height: 210px;
+}
+
+section.intro {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+section.conclusion {
+  margin: auto;
+  width: 50%;
+}
+
+a.about-link:hover {
+  text-decoration: underline !important;
+}
+
+#about {
+  font-family: UniversStd;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.wrap {
+/*  border: 10px dotted red;
+*/  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.weblog {
+  overflow: hidden; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.conclusion {
+  padding-bottom: 40px;
+}
+
+.left, .right, .center {
+/*  border: 5px dotted purple;
+*/  flex: 1;
+}
+/*
+.left {
+  margin-right: 10px;
+  text-align: left;
+}
+.right {
+  margin-left: 10px;
+  text-align: right;
+}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}*/
+
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 10px;
+}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.work-right {
+  margin-left: 10px;
+  flex: 1;
+}
+
+
+.img_post-index {
+  width: 40%;
+}
+
+.img_post {
+  width: 20%;
+}
+
+.img_post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:visited { 
+  color: black;
+}
+
+@font-face {
+  font-family: UniversStd;
+  src: url(../assets/UniversLTStd.otf);
+}
+@font-face {
+  font-family: UniversBold;
+  src: url(../assets/UniversLTStd-Bold.otf);
+}
+@font-face {
+  font-family: UniversLight;
+  src: url(../assets/UniversLTStd-Light.otf);
+}
+
+p {
+  font-family: UniversStd;
+  font-size: 14px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: UniversBold;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: UniversBold;
+  font-size: 18px;
+}
+
+p a {
+  font-family: UniversStd;
+  font-size: 14px;
+}
+
+
+.right-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.left-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.center-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.case-study {
+  width: 100%;
+}
+
+.inspo-image {
+  width: 70%;
+}
+
+.work-image-small {
+  width: 70%;
+}
+
+.work-image {
+  width: 100%;
+}
+
+/*.image-row {
+  text-align: center;
+}
+*/
+.image-row, .image-row-right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.image-row-right {
+  text-align: right;
+}
+
+.align-right {
+  margin-right: 0px;
+}
