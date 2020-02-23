@@ -1,22 +1,12 @@
-#logo-mobile {
-  width: 250px;
-  margin-top: 50px;
-  padding-top: 10px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-top-width: .75px;
-  border-bottom-width: .75px;
-}
 /* [ON BIG SCREEN] */
 /* Wrapper */
-/*#page-nav {
-  position: fixed; 
-  top: 0; 
+#page-nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
   width: 100%;
   background: none;
-  z-index: 1000; }*/
+  z-index: 1000; /* Will always be positioned in front of content */
+}
 .floatingRight {
   float: right;
 }
@@ -58,17 +48,17 @@
 
 }
 
-/*#logohide {
+#logohide {
   display:none !important;
 }
 
 #logo-mobile {
   display:none;
 }
-*/
+
 /* [ON SMALL SCREENS] */
 @media screen and (max-width: 768px){
-/*  .navbar_pad {
+  .navbar_pad {
     padding: 50px;
   }
   #logohide {
@@ -80,7 +70,7 @@
   #logo-mobile {
   display: inline;
   padding: none !important;
-}*/
+}
   /* Show Hamburger */
   #page-nav label {
     display: inline-block;

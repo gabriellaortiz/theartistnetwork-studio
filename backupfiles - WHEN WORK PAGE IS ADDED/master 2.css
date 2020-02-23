@@ -24,10 +24,6 @@
   img.inspo-image {
     width: 100%;
   }
-  .right-home {
-  margin-left: 0px !important;
-  white-space: nowrap;
-}
 }
 
 
@@ -98,8 +94,7 @@ a.about-link:hover {
 /*  border: 10px dotted red;
 */  
   max-width: 1200px;
-  margin: 0 20px auto;
-
+  margin: 0 auto;
 }
 
 .weblog {
@@ -138,19 +133,6 @@ a.about-link:hover {
   margin-left: 10px;
 }
 .center {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.left-home {
-  white-space: nowrap !important;
-  margin-right: 10px;
-}
-.right-home {
-  margin-left: 300px;
-  white-space: nowrap;
-}
-.center-home {
   margin-right: 10px;
   margin-left: 10px;
 }
