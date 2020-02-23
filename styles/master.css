@@ -2,8 +2,11 @@ html,body{
     overflow:hidden;
 }
 
-@media all and (max-width:800px)
+@media all and (max-width:600px)
 {
+  html,body{
+    overflow: visible !important;
+  }
     .row {
       display: block !important;
     }
