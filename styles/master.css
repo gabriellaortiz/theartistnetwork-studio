@@ -35,6 +35,14 @@
 }
 }
 
+@media all and (max-width:800px)
+{
+  .right-home {
+  margin-left: 0px !important;
+  white-space: nowrap;
+}
+}
+
 
 ul.workList {
   padding-left: 0;
